@@ -6,7 +6,7 @@ metadata:
   labels:
     app: rollouts-demo
 spec:
-  replicas: 2
+  replicas: 10
   revisionHistoryLimit: 3
   selector:
     matchLabels:
@@ -32,6 +32,7 @@ spec:
               path: /
               port: http
   strategy:
-    blueGreen: 
-      activeService: rollouts-demo
-      previewService: rollouts-demo-preview
+    canary: 
+      steps:
+      - setWeight: 10
+      - pause: {}
