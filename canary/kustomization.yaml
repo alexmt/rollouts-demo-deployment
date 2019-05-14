@@ -5,3 +5,6 @@ resources:
 - rollout.yaml
 - service.yaml
 - ingress.yaml
+images:
+- name: alexmt/rollouts-demo
+  newTag: 1bc41928fab5d6603ce24cfeec2cff1ae1b1f189
