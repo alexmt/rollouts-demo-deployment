@@ -7,4 +7,4 @@ resources:
 - ingress.yaml
 images:
 - name: alexmt/rollouts-demo
-  newTag: 82b80d62776f4ea751a1df93a029bc58ec2079bc
+  newTag: cea84c84d3db24ca8dc20963bee73db42064d6ef
