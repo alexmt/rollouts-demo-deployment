@@ -35,6 +35,7 @@ spec:
 #        blueGreen:
 #          activeService: rollouts-demo
 #          previewService: rollouts-demo-preview
+#          autoPromotionEnabled: false
      canary: 
        steps:
        - setWeight: 20
