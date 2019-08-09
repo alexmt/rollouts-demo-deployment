@@ -8,4 +8,4 @@ resources:
 - preview-service.yaml
 images:
 - name: alexmt/rollouts-demo
-  newTag: blue
+  newTag: green
